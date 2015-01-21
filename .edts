@@ -1,0 +1,6 @@
+:name "enb-node"
+:node-sname "enb-node"
+:lib-dirs '("apps" "deps" "scripts")
+:app-include-dirs '("include")
+:erlang-cookie "marvel"
+:otp-path "/local/tools/R17B01/"

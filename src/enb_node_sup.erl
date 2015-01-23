@@ -1,5 +1,5 @@
 
--module(enb_sup).
+-module(enb_node_sup).
 
 -behaviour(supervisor).
 

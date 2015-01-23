@@ -7,6 +7,6 @@
                   kernel,
                   stdlib
                  ]},
-  {mod, { enb_app, []}},
+  {mod, { enb_node, []}},
   {env, []}
  ]}.

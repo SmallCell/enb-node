@@ -21,7 +21,7 @@
 %% ------------------------------------------------------------------
 
 start_link(LCID) ->
-    Id = list_to_atom("DRB_" ++ integer_to_list(LCID)),
+    Id = list_to_atom("UE_DRB_" ++ integer_to_list(LCID)),
     gen_server:start_link({local, Id}, ?MODULE, [LCID], []).
 
 %% ------------------------------------------------------------------
